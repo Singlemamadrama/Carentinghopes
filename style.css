@@ -1,3 +1,88 @@
-body {
-
+* {
+    margin: 0;
+    padding: 0;
 }
+
+html {
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(45deg, #DB86FF, #40E0FF);
+}
+
+.logo-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.space {
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+ul {
+    list-style: none;
+    height: 100%;
+    width: 100%;
+    /* position: fixed; */
+    /* top: 0; left: 0; */
+    box-shadow: 2px 0px 5px black;
+    display: flex;
+    justify-content: space-around;
+}
+
+ul li {
+    margin: 5px;
+    padding: 5px;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
+}
+
+ul li a:hover{
+    background: white;
+    color: #40E0FF;
+}
+
+section {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+#about-section {
+    background: linear-gradient(45deg, #DB86FF, #40E0FF);
+}
+
+#newsletter-section {
+        background: linear-gradient(45deg, #40E0FF, #DB86FF);
+    }
+
+#events-section {
+        background: linear-gradient(45deg, #DB86FF, #40E0FF);
+    }
+
+#podcasts-section {
+        background: linear-gradient(45deg,#40E0FF,#DB86FF);
+    }
+
+#videos-section {
+        background: linear-gradient(45deg, #DB86FF, #40E0FF);
+    }
+
+#blog-section {
+        background: linear-gradient(45deg, #40E0FF, #DB86FF);
+    }
+
+#volunteer-section {
+        background: linear-gradient(45deg, #DB86FF, #40E0FF);
+    }
